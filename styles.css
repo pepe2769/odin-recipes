@@ -1,0 +1,13 @@
+* {
+    font-family: Helvetica, "Times New Roman";
+}
+
+.recipes-ol {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.recipe-a {
+    font-weight: bold;
+}
