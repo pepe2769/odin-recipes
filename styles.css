@@ -1,13 +1,41 @@
 * {
+    box-sizing: border-box;
     font-family: Helvetica, "Times New Roman";
 }
 
-.recipes-ol {
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin: 0 0 0.25rem 0.5rem;
+    font-size: 34px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+}
+
+.recipes-ol {
+    margin: 0.25rem 0 0 0.5rem;
+    padding: 0 0;
 }
 
 .recipe-a {
+    display: block;
     font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.recipe-a:active {
+    text-decoration: underline;
+    color: blue;
 }
